@@ -1,0 +1,12 @@
+CIT 312 Final Project - Purdue University
+
+This project is a responsive and interactive web app that provides career information for CIT students. The app includes:
+1. Four quadrants (Software Development, Data Management, Networking, Cybersecurity) with career information in modal popups.
+2. A quiz section that matches users with a career track based on their responses.
+3. The app is built using HTML, SCSS, Bootstrap, and JavaScript.
+
+Technologies Used:
+- Bootstrap 5 for responsive design and modals
+- SCSS for styling and Purdue color scheme
+- JavaScript for interactive quiz functionality
+- Accessibility elements (aria-label, semantic HTML tags)

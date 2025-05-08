@@ -1,0 +1,101 @@
+body {
+  background-color: #8E6F3E;
+  color: #8E6F3E;
+  font-family: "Segoe UI", sans-serif;
+  margin: 1;
+  padding: 1;
+}
+
+header {
+  background-color: #8E6F3E;
+  color: #ffffff;
+}
+
+.card {
+  border: 1px solid #555960;
+}
+.card:hover {
+  background-color: #c1a271;
+  cursor: pointer;
+}
+
+.custom-header {
+  background-color: #8E6F3E;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: black;
+  border-color: black;
+}
+
+#poster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.quadrant {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: #555960;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+}
+.quadrant:hover {
+  background-color: #8E6F3E;
+  transform: scale(1.05);
+}
+
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 0.75rem;
+}
+
+.career-container {
+  background-color: #8E6F3E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+}
+.card h2 {
+  color: #8E6F3E;
+  margin-bottom: 0.5rem;
+}
+.card h3 {
+  color: #555960;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+.card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+.card:hover {
+  transform: scale(1.03);
+  background-color: #cfb991;
+}/*# sourceMappingURL=styles.css.map */

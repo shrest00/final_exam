@@ -1,0 +1,129 @@
+// Purdue SCSS Variables
+$black: #000000;
+$gold: #8E6F3E;
+$gray: #555960;
+$white: #ffffff;
+$lightgold: #cfb991;
+
+$primary-color: $black;
+$secondary-color: $gold;
+$bg-color: $white;
+$accent-color: $gray;
+$custom-color: $lightgold;
+
+// Body and layout
+body {
+  background-color: $secondary-color; 
+  color: $secondary-color;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 1;
+  padding: 1;
+}
+
+// Header
+header {
+  background-color: $secondary-color;
+  color: $white;
+}
+
+// Card styles
+.card {
+  border: 1px solid $accent-color;
+  &:hover {
+    background-color: lighten($gold, 20%);
+    cursor: pointer;
+  }
+}
+
+// Optional: Customize specific header classes
+.custom-header {
+  background-color: $secondary-color;
+}
+
+// Button styles
+.btn-primary {
+  background-color: $primary-color; // Button in black
+  border-color: $primary-color;
+  color: $white;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+  }
+}
+
+// Poster layout
+#poster {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+// Quadrants
+.quadrant {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 50%;
+  background-color: $gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $secondary-color;
+    transform: scale(1.05);
+  }
+}
+
+// Modal content
+.modal-content {
+  background-color: $bg-color;
+  border-radius: 0.75rem;
+}
+
+//career container explore page
+.career-container {
+  background-color: $secondary-color;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: $white;
+  color: $primary-color;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out;
+
+  h2 {
+    color: $secondary-color;
+    margin-bottom: 0.5rem;
+  }
+
+  h3 {
+    color: $accent-color;
+    font-weight: normal;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  &:hover {
+    transform: scale(1.03);
+    background-color: $custom-color;
+  }
+}

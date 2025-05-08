@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Purdue CIT Applied Computing</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+  />
+
+  <!-- Custom SCSS Compiled CSS -->
+  <link rel="stylesheet" href="styles/main.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/favicon.ico" />
+
+  <!-- Bootstrap Bundle with Popper.js (for hamburger functionality) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+  <!-- Custom JS -->
+  <script defer src="script.js"></script>
+</head>
+
+<body class="bg-gold text-dark">
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <img src="images/cit-logo.png" alt="CIT Logo" width="40" class="me-2" />
+          Applied Computing
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index2.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="explore.html">Explore</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quiz.html">Quiz</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+        <div class="text-center py-5">
+           <h1>Find Your Design Path</h1>
+    </header>
+
+  <main class="container py-4">
+    <!-- Quiz Form -->
+    <form action="#" method="post" class="mb-5">
+      <div class="quiz-card mb-4">
+        <h2>1. Which activity do you enjoy the most?</h2>
+        <label><input type="radio" name="q1"> Sketching ideas on paper</label><br>
+        <label><input type="radio" name="q1"> Writing code</label><br>
+        <label><input type="radio" name="q1"> Editing photos and videos</label><br>
+        <label><input type="radio" name="q1"> Creating animations</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>2. Which tool do you prefer?</h2>
+        <label><input type="radio" name="q2"> Figma or XD</label><br>
+        <label><input type="radio" name="q2"> Visual Studio Code</label><br>
+        <label><input type="radio" name="q2"> Adobe Photoshop</label><br>
+        <label><input type="radio" name="q2"> After Effects</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>3. How do you like to tell stories?</h2>
+        <label><input type="radio" name="q3"> Through design and layout</label><br>
+        <label><input type="radio" name="q3"> Through interactions and behaviors</label><br>
+        <label><input type="radio" name="q3"> Through imagery</label><br>
+        <label><input type="radio" name="q3"> Through movement</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>4. What type of feedback do you enjoy?</h2>
+        <label><input type="radio" name="q4"> "This feels intuitive"</label><br>
+        <label><input type="radio" name="q4"> "This works smoothly"</label><br>
+        <label><input type="radio" name="q4"> "This looks beautiful"</label><br>
+        <label><input type="radio" name="q4"> "This animation is powerful"</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>5. Which phrase resonates with you?</h2>
+        <label><input type="radio" name="q5"> Design for the user</label><br>
+        <label><input type="radio" name="q5"> Code with elegance</label><br>
+        <label><input type="radio" name="q5"> Express with visuals</label><br>
+        <label><input type="radio" name="q5"> Bring ideas to motion</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>6. Which environment do you prefer?</h2>
+        <label><input type="radio" name="q6"> A creative studio with designers</label><br>
+        <label><input type="radio" name="q6"> A coding team in a tech company</label><br>
+        <label><input type="radio" name="q6"> A visual effects team in a film studio</label><br>
+        <label><input type="radio" name="q6"> An interactive team at a startup</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>7. Which design process excites you the most?</h2>
+        <label><input type="radio" name="q7"> Conceptualizing and brainstorming ideas</label><br>
+        <label><input type="radio" name="q7"> Coding and problem-solving</label><br>
+        <label><input type="radio" name="q7"> Creating wireframes and layouts</label><br>
+        <label><input type="radio" name="q7"> Animating and bringing designs to life</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>8. What type of design do you enjoy most?</h2>
+        <label><input type="radio" name="q8"> Web and app design</label><br>
+        <label><input type="radio" name="q8"> Software and systems design</label><br>
+        <label><input type="radio" name="q8"> Graphic design</label><br>
+        <label><input type="radio" name="q8"> Motion graphics and animation</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>9. How do you prefer to interact with your audience?</h2>
+        <label><input type="radio" name="q9"> Through user interfaces</label><br>
+        <label><input type="radio" name="q9"> Through innovative web features</label><br>
+        <label><input type="radio" name="q9"> Through stunning visual content</label><br>
+        <label><input type="radio" name="q9"> Through captivating animations</label>
+      </div>
+
+      <div class="quiz-card mb-4">
+        <h2>10. What excites you most about your design career?</h2>
+        <label><input type="radio" name="q10"> Solving problems with creative designs</label><br>
+        <label><input type="radio" name="q10"> Creating seamless and user-friendly experiences</label><br>
+        <label><input type="radio" name="q10"> Making things look beautiful</label><br>
+        <label><input type="radio" name="q10"> Bringing stories to life through animation</label>
+      </div>
+
+      <div class="text-center">
+        <button type="submit" class="btn btn-secondary">Submit Quiz</button>
+      </div>
+    </form>
+
+    <!-- Button Group -->
+    <div class="text-center mb-5">
+      <h3>Explore Design Fields</h3>
+      <div class="btn-group" role="group">
+        <button class="btn btn-outline-primary">UI/UX</button>
+        <button class="btn btn-outline-secondary">Front-End Dev</button>
+        <button class="btn btn-outline-success">Visual Design</button>
+        <button class="btn btn-outline-warning">Motion Design</button>
+      </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="designCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/ui.jpg" class="d-block w-100" alt="UI/UX Design">
+        </div>
+        <div class="carousel-item">
+          <img src="images/cyber.jpg" class="d-block w-100" alt="Coding">
+        </div>
+        <div class="carousel-item">
+          <img src="images/designer.jpeg" class="d-block w-100" alt="Visual Design">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#designCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#designCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+    <!-- Accordion -->
+    <div class="accordion mb-5" id="faqAccordion">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">What is this quiz about?</button>
+        </h2>
+        <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            This quiz helps you discover which area of design or development suits your interests and skills.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">Can I retake the quiz?</button>
+        </h2>
+        <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! You can retake it anytime to explore different results and paths.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Trigger Button -->
+    <div class="text-center mb-4">
+      <button class="btn btn-info" data-bs-toggle="modal" data-bs-target="#careerModal">
+        Learn More About Design Careers
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="careerModal" tabindex="-1" aria-labelledby="careerModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="careerModalLabel">Design Career Paths</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            Whether you're drawn to user-centered design, code-driven development, or expressive visual art, there's a design path perfect for you!
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="text-center py-3 border-top bg-light">
+    <p>&copy; 2025 Purdue CIT Applied Computing</p>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+</body>
+</html>
